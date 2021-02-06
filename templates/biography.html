@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+</br>
+<div class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{% static 'images/generaluser.png' %} " style="float:right;width:20%;">
+                        <h2 class="card-title">
+                            Prof. Rajaram Lakkaraju
+                        </h2>
+                        <p class="card-text">Professor</br> Department of Mechnical Engineering</br>Indian Institute of Technology Kharagpur</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="card">
+        <h5 class="card-header bg-info text-white">Academic Details</h5>
+        <div class="card-body">
+          <p class="card-text">Ph.D. (2005) : Thesis on “Acquisition and Incorporation of Prosodic Knowledge for Speech Systems in Indian Languages”, Department of Computer Science and Engineering, Indian Institute of Technology Madras, Chennai, India.</p>
+          <p class="card-text">M.E (1993): Specialization in Communication Systems, Department of Electronics and Communication Engineering, PSG Tech., Coimbatore, India.</p>
+          <p class="card-text">B.E (1990): Department of Electronics and Communication Engineering, Nagarjuna University, Guntur, India.</p>
+        </div>
+    </div>
+</br>
+    <div class="card">
+        <h5 class="card-header bg-info text-white">Areas of Research Interests</h5>
+        <div class="card-body">
+          <p class="card-text">Signal processing</p>
+          <p class="card-text">Big-data analytics</p>
+          <p class="card-text">B.E (1990): Department of Electronics and Communication Engineering, Nagarjuna University, Guntur, India.</p>
+        </div>
+    </div></br>
+
+    <div class="card">
+        <h5 class="card-header bg-info text-white">Appointments Held</h5>
+        <div class="card-body">
+          <p class="card-text">Ph.D. (2005) : Thesis on “Acquisition and Incorporation of Prosodic Knowledge for Speech Systems in Indian Languages”, Department of Computer Science and Engineering, Indian Institute of Technology Madras, Chennai, India.</p>
+          <p class="card-text">M.E (1993): Specialization in Communication Systems, Department of Electronics and Communication Engineering, PSG Tech., Coimbatore, India.</p>
+          <p class="card-text">B.E (1990): Department of Electronics and Communication Engineering, Nagarjuna University, Guntur, India.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
